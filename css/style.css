@@ -220,7 +220,7 @@ h3{
 .feature{
     grid-gap: 0rem 4rem;
     display: grid;
-    padding: 0.5rem;
+    padding: 0;
    
 }
 .feature .btn{
@@ -920,7 +920,7 @@ textarea{
 }
 .services{
     margin-top: 20rem;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
 }
 .services__tabs a{
     display: flex;
@@ -1113,7 +1113,10 @@ textarea{
 .travel__slides::-webkit-scrollbar{
     display: none;
 }
-
+.travell__heading{
+    margin-bottom: 3rem;
+    margin-right: 1rem;
+}
 /*-------End of Travel---------*/
 /*-------Start of Avatar---------*/
 .avatar-group{
