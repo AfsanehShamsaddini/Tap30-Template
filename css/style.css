@@ -1136,10 +1136,12 @@ textarea{
     margin-left: -25px;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
+    
   }
 .avatar img{
     height: 100%;
-     width: 100%;
+    width: 100%;
+    object-fit: cover;
     
    
   }
@@ -1155,6 +1157,7 @@ textarea{
     margin-right: 5px;
     position: relative;
     font-size: 1.4rem;
+   
 }
 .avatar:hover:not(:last-of-type){
     transform: translate(10px);
